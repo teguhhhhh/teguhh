@@ -1,0 +1,48 @@
+
+    .header-container {
+        width: 100%;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .txt-label {
+        color: white;
+        text-align: center;
+        flex: 1;
+    } 
+
+    .img-logo {
+        width: 40px;
+        border-radius: 50px;
+    }
+
+    .img-profile {
+        width: 20%;
+        border-radius: 70%;
+    }
+
+    .content-main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .content-paragraf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        background-color: #DADADA;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 20px;
+    }
